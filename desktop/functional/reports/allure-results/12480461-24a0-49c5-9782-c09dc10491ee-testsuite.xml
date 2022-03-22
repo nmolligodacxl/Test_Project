@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647883140496' stop='1647883141304'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647883140496' status='broken' stop='1647883141303'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Departure date: Thu Mar 31 2022 13:18:52 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Thu Mar 31 2022 13:18:52 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Arrival date: Mon Apr 04 2022 13:18:52 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Mon Apr 04 2022 13:18:52 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Departure location: LAS</name>
+                    <title>Departure location: LAS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140497' status='passed' stop='1647883140497'>
+                    <name>Destination location: LAX</name>
+                    <title>Destination location: LAX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140498' status='passed' stop='1647883140521'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a9714f0-ea8d-48c2-8ee8-5a74d98b104c-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='4a91a685-688d-4e14-8c66-d1a0a0cfc6c2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883140527' status='passed' stop='1647883140613'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='68fec18c-005b-4076-8752-9d440bd1ed32-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='fbc89606-48f1-43f8-8e83-db059681e980-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883140613' status='passed' stop='1647883140646'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf70d6c8-1b71-4bfe-b649-d79aac2eb888-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='0391e396-0d55-4e53-90ba-6ad23b2fad90-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883140649' status='passed' stop='1647883140757'>
+                    <name>POST /session/:sessionId/element/e48f00bb-7a6a-4d1c-8a29-352c6c5c46d5/click</name>
+                    <title>POST /session/:sessionId/element/e48f00bb-7a6a-4d1c-8a29-352c6c5c46d5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140758' status='passed' stop='1647883140775'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22a742a4-9bc0-4fe4-b1cb-917e588bbb90-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='f00aeb43-ae90-41a6-9fa5-69220cb4e678-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883140777' status='passed' stop='1647883140870'>
+                    <name>POST /session/:sessionId/element/550ace63-c4dd-4c50-8c1a-4f2050931501/click</name>
+                    <title>POST /session/:sessionId/element/550ace63-c4dd-4c50-8c1a-4f2050931501/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883140871' status='passed' stop='1647883140895'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5134344a-22fc-493d-9594-dfc9d2f0410d-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='98d84aa0-2bde-49e2-a6aa-f550e918e855-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883140899' status='passed' stop='1647883141000'>
+                    <name>POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/click</name>
+                    <title>POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647883141000' status='passed' stop='1647883141020'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9615143a-b01c-41cd-b1ca-7138118012f4-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='240711f2-d69d-4839-8e30-329ab989f4b3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647883141023' status='broken' stop='1647883141303'>
+                    <name>POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/clear</name>
+                    <title>POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/clear</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1647883141118' status='passed' stop='1647883141301'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='d4cd28c7-d317-432b-88b9-f5274424f459-attachment.png' type='image/png' size='88694'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state
+                  (Session info: chrome=99.0.4844.51)</message>
+                <stack-trace>invalid element state
+                  (Session info: chrome=99.0.4844.51)
+                    at getErrorFromResponseBody (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.&lt;anonymous> (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Element.wrapCommandFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\middlewares.js:24:65)
+                    at async Element.elementErrorHandlerCallbackFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.setValue (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\commands\element\setValue.js:30:5)
+                    at Element.elementErrorHandlerCallback (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\middlewares.js:48:12)
+                    at FlightSearchPOM.typeDeparture (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\pom\FlightSearch.pom.ts:42:29)
+                    at FlightSearchPOM.enterDepartureValue (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\pom\FlightSearch.pom.ts:53:14)
+                    at FlightSearch.enterDeparture (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\dsl\flight-search.dsl.ts:35:21)
+                    at FlightSearch.initiateFlightSearch (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\dsl\flight-search.dsl.ts:49:14)
+                    at Context.&lt;anonymous> (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\specs\flight-search.spec.ts:43:22)
+                    at Context.executeSync (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\index.js:38:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

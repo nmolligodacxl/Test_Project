@@ -1,0 +1,238 @@
+{
+  "uid" : "a6c92205ee3a2ad2",
+  "name" : "Verify User should be able to search flight",
+  "fullName" : "Flight: Search feature.Verify User should be able to search flight",
+  "historyId" : "30d5795c0f889c15ef6e4babbd4d4cf",
+  "time" : {
+    "start" : 1647641394815,
+    "stop" : 1647641394854,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When: I enter flight search criteria",
+      "time" : {
+        "start" : 1647641394823,
+        "stop" : 1647641394823,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure date: Mon Mar 28 2022 18:09:51 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647641394823,
+        "stop" : 1647641394823,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Arrival date: Fri Apr 01 2022 18:09:51 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647641394824,
+        "stop" : 1647641394824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Adult Count: 2",
+      "time" : {
+        "start" : 1647641394824,
+        "stop" : 1647641394824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Child Count: 0",
+      "time" : {
+        "start" : 1647641394824,
+        "stop" : 1647641394824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure location: LAS",
+      "time" : {
+        "start" : 1647641394824,
+        "stop" : 1647641394824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Destination location: LAX",
+      "time" : {
+        "start" : 1647641394825,
+        "stop" : 1647641394825,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "trying again..",
+      "time" : {
+        "start" : 1647641394825,
+        "stop" : 1647641394825,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647641394826,
+        "stop" : 1647641394904,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74fca49ca46e441c",
+        "name" : "Request",
+        "source" : "74fca49ca46e441c.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "f39c8a7d00553df",
+        "name" : "Response",
+        "source" : "f39c8a7d00553df.json",
+        "type" : "application/json",
+        "size" : 1039
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647641394923,
+        "stop" : 0,
+        "duration" : -1647641394923
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51a1c831f5e12dc5",
+        "name" : "Request",
+        "source" : "51a1c831f5e12dc5.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User should be able to search flight"
+  }, {
+    "name" : "package",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6c92205ee3a2ad2.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

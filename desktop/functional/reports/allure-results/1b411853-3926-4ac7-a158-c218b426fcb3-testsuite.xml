@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647639616781' stop='1647639670639'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647639616786' status='passed' stop='1647639670555'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647639616791' status='passed' stop='1647639616791'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616793' status='passed' stop='1647639616793'>
+                    <name>Departure date: Mon Mar 28 2022 17:40:13 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Mon Mar 28 2022 17:40:13 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616793' status='passed' stop='1647639616793'>
+                    <name>Arrival date: Fri Apr 01 2022 17:40:13 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Fri Apr 01 2022 17:40:13 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616794' status='passed' stop='1647639616794'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616795' status='passed' stop='1647639616795'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616796' status='passed' stop='1647639616796'>
+                    <name>Departure location: LAS</name>
+                    <title>Departure location: LAS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639616799' status='passed' stop='1647639616799'>
+                    <name>Destination location: LAX</name>
+                    <title>Destination location: LAX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639670529' status='passed' stop='1647639670586'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6126ba59-4f64-428f-b163-2bbcec92c3e4-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='892715ba-a1d4-4a24-b3fe-96894300d2a5-attachment.json' type='application/json' size='1039'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647639670612' status='passed' stop='1647639670635'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f5998fcc-63ce-40b3-ae5e-8a60bc5c500d-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,423 @@
+{
+  "uid" : "e780485cfac702ac",
+  "name" : "Verify User should be able to search flight",
+  "fullName" : "Flight: Search feature.Verify User should be able to search flight",
+  "historyId" : "30d5795c0f889c15ef6e4babbd4d4cf",
+  "time" : {
+    "start" : 1647883140496,
+    "stop" : 1647883141303,
+    "duration" : 807
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "invalid element state\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.setValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\commands\\element\\setValue.js:30:5)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at FlightSearchPOM.typeDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:42:29)\n                    at FlightSearchPOM.enterDepartureValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:53:14)\n                    at FlightSearch.enterDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:35:21)\n                    at FlightSearch.initiateFlightSearch (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:49:14)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:43:22)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid element state\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "invalid element state\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.setValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\commands\\element\\setValue.js:30:5)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at FlightSearchPOM.typeDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:42:29)\n                    at FlightSearchPOM.enterDepartureValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:53:14)\n                    at FlightSearch.enterDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:35:21)\n                    at FlightSearch.initiateFlightSearch (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:49:14)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:43:22)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)",
+    "steps" : [ {
+      "name" : "When: I enter flight search criteria",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure date: Thu Mar 31 2022 13:18:52 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Arrival date: Mon Apr 04 2022 13:18:52 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Adult Count: 2",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Child Count: 0",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure location: LAS",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Destination location: LAX",
+      "time" : {
+        "start" : 1647883140497,
+        "stop" : 1647883140497,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647883140498,
+        "stop" : 1647883140521,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c128ba6eb81c7d68",
+        "name" : "Request",
+        "source" : "c128ba6eb81c7d68.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "8ccca1839c0ac1c0",
+        "name" : "Response",
+        "source" : "8ccca1839c0ac1c0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647883140527,
+        "stop" : 1647883140613,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96ab285006a616d",
+        "name" : "Request",
+        "source" : "96ab285006a616d.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "c80ed68bfdd1be93",
+        "name" : "Response",
+        "source" : "c80ed68bfdd1be93.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647883140613,
+        "stop" : 1647883140646,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d51e55f4f41eb8e",
+        "name" : "Request",
+        "source" : "6d51e55f4f41eb8e.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "99b9d9b740ed5f47",
+        "name" : "Response",
+        "source" : "99b9d9b740ed5f47.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/e48f00bb-7a6a-4d1c-8a29-352c6c5c46d5/click",
+      "time" : {
+        "start" : 1647883140649,
+        "stop" : 1647883140757,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647883140758,
+        "stop" : 1647883140775,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c67140288a2fc86",
+        "name" : "Request",
+        "source" : "9c67140288a2fc86.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "df0a61afc619d21a",
+        "name" : "Response",
+        "source" : "df0a61afc619d21a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/550ace63-c4dd-4c50-8c1a-4f2050931501/click",
+      "time" : {
+        "start" : 1647883140777,
+        "stop" : 1647883140870,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647883140871,
+        "stop" : 1647883140895,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c086c96f5da115a0",
+        "name" : "Request",
+        "source" : "c086c96f5da115a0.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "d5c04e258fe21f3a",
+        "name" : "Response",
+        "source" : "d5c04e258fe21f3a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/click",
+      "time" : {
+        "start" : 1647883140899,
+        "stop" : 1647883141000,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647883141000,
+        "stop" : 1647883141020,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72834ba3276502dd",
+        "name" : "Request",
+        "source" : "72834ba3276502dd.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "abefe3f9e448ba50",
+        "name" : "Response",
+        "source" : "abefe3f9e448ba50.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/811a0aad-478a-4806-92d1-3696efbbeb98/clear",
+      "time" : {
+        "start" : 1647883141023,
+        "stop" : 1647883141303,
+        "duration" : 280
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid element state\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.setValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\commands\\element\\setValue.js:30:5)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at FlightSearchPOM.typeDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:42:29)\n                    at FlightSearchPOM.enterDepartureValue (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:53:14)\n                    at FlightSearch.enterDeparture (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:35:21)\n                    at FlightSearch.initiateFlightSearch (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:49:14)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:43:22)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647883141118,
+          "stop" : 1647883141301,
+          "duration" : 183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8280e676e14d0472",
+          "name" : "Screenshot",
+          "source" : "8280e676e14d0472.png",
+          "type" : "image/png",
+          "size" : 88694
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 18,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User should be able to search flight"
+  }, {
+    "name" : "package",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e780485cfac702ac.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

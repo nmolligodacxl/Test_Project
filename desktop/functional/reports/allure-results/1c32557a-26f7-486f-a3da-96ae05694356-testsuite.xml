@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647462232497' stop='1647462232509'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647462232499' status='passed' stop='1647462232508'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647462232500' status='passed' stop='1647462232501'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232501' status='passed' stop='1647462232501'>
+                    <name>Departure date: Sat Mar 26 2022 16:23:49 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Sat Mar 26 2022 16:23:49 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232501' status='passed' stop='1647462232501'>
+                    <name>Arrival date: Wed Mar 30 2022 16:23:49 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Wed Mar 30 2022 16:23:49 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232501' status='passed' stop='1647462232501'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232501' status='passed' stop='1647462232501'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232501' status='passed' stop='1647462232501'>
+                    <name>Departure location: [object Object]</name>
+                    <title>Departure location: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647462232502' status='passed' stop='1647462232502'>
+                    <name>Destination location: [object Object]</name>
+                    <title>Destination location: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

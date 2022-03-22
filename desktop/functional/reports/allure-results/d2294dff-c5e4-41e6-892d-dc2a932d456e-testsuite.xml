@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647638117759' stop='1647638135648'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647638117761' status='broken' stop='1647638135646'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647638117762' status='passed' stop='1647638117762'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117763' status='passed' stop='1647638117763'>
+                    <name>Departure date: Mon Mar 28 2022 17:15:14 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Mon Mar 28 2022 17:15:14 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117763' status='passed' stop='1647638117763'>
+                    <name>Arrival date: Fri Apr 01 2022 17:15:14 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Fri Apr 01 2022 17:15:14 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117763' status='passed' stop='1647638117763'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117764' status='passed' stop='1647638117764'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117764' status='passed' stop='1647638117764'>
+                    <name>Departure location: LAS</name>
+                    <title>Departure location: LAS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117764' status='passed' stop='1647638117764'>
+                    <name>Destination location: LAX</name>
+                    <title>Destination location: LAX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647638117765' status='passed' stop='1647638135505'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='06fd0dd0-b76b-45e8-97cd-b03e5ec20883-attachment.png' type='image/png' size='96733'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'initiateFlightSearch' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'initiateFlightSearch' of undefined
+                    at Context.&lt;anonymous> (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\specs\flight-search.spec.ts:40:22)
+                    at Context.executeAsync (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

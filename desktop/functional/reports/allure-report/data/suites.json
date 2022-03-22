@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Flight: Search feature",
+    "children" : [ {
+      "name" : "Verify User should be able to search flight",
+      "uid" : "a9324799e30b8a3",
+      "parentUid" : "0903b948d5cb9d93ce74c9a4644dbd70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647896711962,
+        "stop" : 1647896738719,
+        "duration" : 26757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 58,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    } ],
+    "uid" : "0903b948d5cb9d93ce74c9a4644dbd70"
+  } ]
+}

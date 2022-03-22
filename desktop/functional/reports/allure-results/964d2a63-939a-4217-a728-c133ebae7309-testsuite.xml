@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647639700682' stop='1647639882023'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647639700685' status='broken' stop='1647639881945'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647639700690' status='passed' stop='1647639700691'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700693' status='passed' stop='1647639700693'>
+                    <name>Departure date: Mon Mar 28 2022 17:41:38 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Mon Mar 28 2022 17:41:38 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700696' status='passed' stop='1647639700696'>
+                    <name>Arrival date: Fri Apr 01 2022 17:41:38 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Fri Apr 01 2022 17:41:38 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700701' status='passed' stop='1647639700701'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700704' status='passed' stop='1647639700704'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700706' status='passed' stop='1647639700706'>
+                    <name>Departure location: LAS</name>
+                    <title>Departure location: LAS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639700708' status='passed' stop='1647639700708'>
+                    <name>Destination location: LAX</name>
+                    <title>Destination location: LAX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647639881914' status='broken' stop='1647639881945'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3d8728c2-7be2-480f-83a8-c9bb8b9181d1-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Flight: Search feature Verify User should be able to search flight" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\specs\flight-search.spec.ts)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Flight: Search feature Verify User should be able to search flight" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\specs\flight-search.spec.ts)
+                    at createTimeoutError (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\mocha\lib\runnable.js:431:10)
+                    at done (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\mocha\lib\runnable.js:308:18)
+                    at C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\mocha\lib\runnable.js:371:11</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

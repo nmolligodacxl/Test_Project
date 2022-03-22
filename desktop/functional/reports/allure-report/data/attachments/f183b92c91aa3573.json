@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".DayPicker-Day[aria-label='Thu Mar 31 2022']"
+}

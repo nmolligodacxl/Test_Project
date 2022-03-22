@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647461956267' stop='1647461956278'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647461956272' status='passed' stop='1647461956277'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647461956275' status='passed' stop='1647461956275'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647461956275' status='passed' stop='1647461956275'>
+                    <name>departure date: Sat Mar 26 2022 16:19:12 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>departure date: Sat Mar 26 2022 16:19:12 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647461956275' status='passed' stop='1647461956275'>
+                    <name>arrival date: Wed Mar 30 2022 16:19:12 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>arrival date: Wed Mar 30 2022 16:19:12 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

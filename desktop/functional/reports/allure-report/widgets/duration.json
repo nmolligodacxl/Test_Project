@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a9324799e30b8a3",
+  "name" : "Verify User should be able to search flight",
+  "time" : {
+    "start" : 1647896711962,
+    "stop" : 1647896738719,
+    "duration" : 26757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

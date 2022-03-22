@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smartValueFares\"}\n  (Session info: chrome=99.0.4844.51)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00C29943+2595139]\n\tOrdinal0 [0x00BBC9F1+2148849]\n\tOrdinal0 [0x00AB4528+1066280]\n\tOrdinal0 [0x00AE0FD4+1249236]\n\tOrdinal0 [0x00AE11CB+1249739]\n\tOrdinal0 [0x00B0D812+1431570]\n\tOrdinal0 [0x00AFBA34+1358388]\n\tOrdinal0 [0x00B0BAF2+1424114]\n\tOrdinal0 [0x00AFB806+1357830]\n\tOrdinal0 [0x00AD6086+1204358]\n\tOrdinal0 [0x00AD6F96+1208214]\n\tGetHandleVerifier [0x00DCB232+1658114]\n\tGetHandleVerifier [0x00E8312C+2411516]\n\tGetHandleVerifier [0x00CBF261+560433]\n\tGetHandleVerifier [0x00CBE366+556598]\n\tOrdinal0 [0x00BC286B+2173035]\n\tOrdinal0 [0x00BC75F8+2192888]\n\tOrdinal0 [0x00BC76E5+2193125]\n\tOrdinal0 [0x00BD11FC+2232828]\n\tBaseThreadInitThunk [0x76296359+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F387D4+228]\n\tRtlGetAppContainerNamedObjectPath [0x76F387A4+180]\n"
+}

@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647865225573' stop='1647865245066'>
+    <name>Flight: Search feature</name>
+    <title>Flight: Search feature</title>
+    <test-cases>
+        <test-case start='1647865225573' status='broken' stop='1647865245065'>
+            <name>Verify User should be able to search flight</name>
+            <title>Verify User should be able to search flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1647865225574' status='passed' stop='1647865225575'>
+                    <name>When: I enter flight search criteria</name>
+                    <title>When: I enter flight search criteria</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Departure date: Thu Mar 31 2022 08:20:09 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Departure date: Thu Mar 31 2022 08:20:09 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Arrival date: Mon Apr 04 2022 08:20:09 GMT-0400 (Eastern Daylight Time)</name>
+                    <title>Arrival date: Mon Apr 04 2022 08:20:09 GMT-0400 (Eastern Daylight Time)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Adult Count: 2</name>
+                    <title>Adult Count: 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Child Count: 0</name>
+                    <title>Child Count: 0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Departure location: LAS</name>
+                    <title>Departure location: LAS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865225575' status='passed' stop='1647865225575'>
+                    <name>Destination location: LAX</name>
+                    <title>Destination location: LAX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865240577' status='passed' stop='1647865240577'>
+                    <name>trying again..</name>
+                    <title>trying again..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647865240577' status='passed' stop='1647865240609'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6dbe0cd3-89dd-447c-aeaf-fc3d553d6f7d-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='30e8d7d6-a3ad-4b70-81c1-73765957a9b2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1647865240614' status='broken' stop='1647865245065'>
+                    <name>POST /session/:sessionId/element/2790b68e-1a25-4f02-9404-9d0332ef3aa0/click</name>
+                    <title>POST /session/:sessionId/element/2790b68e-1a25-4f02-9404-9d0332ef3aa0/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1647865244917' status='passed' stop='1647865245064'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='7985178b-c545-4026-aed8-6187b92ca76d-attachment.png' type='image/png' size='96733'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;li data-cy="roundTrip" class="">...&lt;/li> is not clickable at point (198, 181). Other element would receive the click: &lt;div data-cy="outsideModal" class="loginModal displayBlock modalLogin dynHeight personal">&lt;/div>
+                  (Session info: chrome=99.0.4844.51)</message>
+                <stack-trace>element click intercepted: Element &lt;li data-cy="roundTrip" class="">...&lt;/li> is not clickable at point (198, 181). Other element would receive the click: &lt;div data-cy="outsideModal" class="loginModal displayBlock modalLogin dynHeight personal">&lt;/div>
+                  (Session info: chrome=99.0.4844.51)
+                    at getErrorFromResponseBody (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.runCommandWithHooks (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.&lt;anonymous> (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Element.wrapCommandFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\middlewares.js:24:65)
+                    at Element.elementErrorHandlerCallback (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\webdriverio\build\middlewares.js:48:12)
+                    at Context.&lt;anonymous> (C:\01-Travel\ORXe3.0\Training\Test_Project\desktop\functional\specs\flight-search.spec.ts:46:36)
+                    at Context.executeSync (C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\01-Travel\ORXe3.0\Training\Test_Project\node_modules\@wdio\sync\build\index.js:69:73</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

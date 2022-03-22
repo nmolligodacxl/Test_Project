@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Flight: Search feature",
+    "children" : [ {
+      "name" : "Verify User should be able to search flight",
+      "uid" : "a9324799e30b8a3",
+      "parentUid" : "bdd868d4e83e56cb0177139662017fb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647896711962,
+        "stop" : 1647896738719,
+        "duration" : 26757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 58,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    } ],
+    "uid" : "bdd868d4e83e56cb0177139662017fb9"
+  } ]
+}

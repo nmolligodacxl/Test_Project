@@ -1,0 +1,258 @@
+{
+  "uid" : "103a536677e97dfb",
+  "name" : "Verify User should be able to search flight",
+  "fullName" : "Flight: Search feature.Verify User should be able to search flight",
+  "historyId" : "30d5795c0f889c15ef6e4babbd4d4cf",
+  "time" : {
+    "start" : 1647865225573,
+    "stop" : 1647865245065,
+    "duration" : 19492
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <li data-cy=\"roundTrip\" class=\"\">...</li> is not clickable at point (198, 181). Other element would receive the click: <div data-cy=\"outsideModal\" class=\"loginModal displayBlock modalLogin dynHeight personal\"></div>\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "element click intercepted: Element <li data-cy=\"roundTrip\" class=\"\">...</li> is not clickable at point (198, 181). Other element would receive the click: <div data-cy=\"outsideModal\" class=\"loginModal displayBlock modalLogin dynHeight personal\"></div>\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:46:36)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <li data-cy=\"roundTrip\" class=\"\">...</li> is not clickable at point (198, 181). Other element would receive the click: <div data-cy=\"outsideModal\" class=\"loginModal displayBlock modalLogin dynHeight personal\"></div>\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "element click intercepted: Element <li data-cy=\"roundTrip\" class=\"\">...</li> is not clickable at point (198, 181). Other element would receive the click: <div data-cy=\"outsideModal\" class=\"loginModal displayBlock modalLogin dynHeight personal\"></div>\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:46:36)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+    "steps" : [ {
+      "name" : "When: I enter flight search criteria",
+      "time" : {
+        "start" : 1647865225574,
+        "stop" : 1647865225575,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure date: Thu Mar 31 2022 08:20:09 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Arrival date: Mon Apr 04 2022 08:20:09 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Adult Count: 2",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Child Count: 0",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure location: LAS",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Destination location: LAX",
+      "time" : {
+        "start" : 1647865225575,
+        "stop" : 1647865225575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "trying again..",
+      "time" : {
+        "start" : 1647865240577,
+        "stop" : 1647865240577,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647865240577,
+        "stop" : 1647865240609,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4aa86b727ec7646",
+        "name" : "Request",
+        "source" : "b4aa86b727ec7646.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "30f3ba1b90dbe96c",
+        "name" : "Response",
+        "source" : "30f3ba1b90dbe96c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2790b68e-1a25-4f02-9404-9d0332ef3aa0/click",
+      "time" : {
+        "start" : 1647865240614,
+        "stop" : 1647865245065,
+        "duration" : 4451
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <li data-cy=\"roundTrip\" class=\"\">...</li> is not clickable at point (198, 181). Other element would receive the click: <div data-cy=\"outsideModal\" class=\"loginModal displayBlock modalLogin dynHeight personal\"></div>\n                  (Session info: chrome=99.0.4844.51)\n                    at getErrorFromResponseBody (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at Element.elementErrorHandlerCallback (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:46:36)\n                    at Context.executeSync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647865244917,
+          "stop" : 1647865245064,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "29b14d4cd9524fc4",
+          "name" : "Screenshot",
+          "source" : "29b14d4cd9524fc4.png",
+          "type" : "image/png",
+          "size" : 96733
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User should be able to search flight"
+  }, {
+    "name" : "package",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "103a536677e97dfb.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

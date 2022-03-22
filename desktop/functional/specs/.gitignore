@@ -1,0 +1,12 @@
+# compiled output
+package-lock.json
+
+# dependencies
+/node_modules
+node_modules/
+#node_modules.zip
+/chromium
+
+# Allure Report Files
+allure-results
+allure-report

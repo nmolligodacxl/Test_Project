@@ -1,0 +1,200 @@
+{
+  "uid" : "e8091d4ac0c9b9a2",
+  "name" : "Verify User should be able to search flight",
+  "fullName" : "Flight: Search feature.Verify User should be able to search flight",
+  "historyId" : "30d5795c0f889c15ef6e4babbd4d4cf",
+  "time" : {
+    "start" : 1647638454726,
+    "stop" : 1647638467380,
+    "duration" : 12654
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.cbRoundTrip.click is not a function",
+  "statusTrace" : "TypeError: this.cbRoundTrip.click is not a function\n                    at FlightSearchPOM.clickRoundTrip (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:9:26)\n                    at FlightSearch.selectTripType (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:16:25)\n                    at FlightSearch.initiateFlightSearch (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:32:14)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:41:22)\n                    at Context.executeAsync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.cbRoundTrip.click is not a function",
+    "statusTrace" : "TypeError: this.cbRoundTrip.click is not a function\n                    at FlightSearchPOM.clickRoundTrip (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\pom\\FlightSearch.pom.ts:9:26)\n                    at FlightSearch.selectTripType (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:16:25)\n                    at FlightSearch.initiateFlightSearch (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\dsl\\flight-search.dsl.ts:32:14)\n                    at Context.<anonymous> (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\desktop\\functional\\specs\\flight-search.spec.ts:41:22)\n                    at Context.executeAsync (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\01-Travel\\ORXe3.0\\Training\\Test_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "When: I enter flight search criteria",
+      "time" : {
+        "start" : 1647638454729,
+        "stop" : 1647638454729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure date: Mon Mar 28 2022 17:20:51 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647638454730,
+        "stop" : 1647638454730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Arrival date: Fri Apr 01 2022 17:20:51 GMT-0400 (Eastern Daylight Time)",
+      "time" : {
+        "start" : 1647638454730,
+        "stop" : 1647638454730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Adult Count: 2",
+      "time" : {
+        "start" : 1647638454730,
+        "stop" : 1647638454730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Child Count: 0",
+      "time" : {
+        "start" : 1647638454730,
+        "stop" : 1647638454730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Departure location: LAS",
+      "time" : {
+        "start" : 1647638454730,
+        "stop" : 1647638454730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Destination location: LAX",
+      "time" : {
+        "start" : 1647638454731,
+        "stop" : 1647638454731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1647638454737,
+        "stop" : 1647638467221,
+        "duration" : 12484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "992be690848895a4",
+      "name" : "Screenshot",
+      "source" : "992be690848895a4.png",
+      "type" : "image/png",
+      "size" : 96784
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User should be able to search flight"
+  }, {
+    "name" : "package",
+    "value" : "Flight: Search feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8091d4ac0c9b9a2.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
