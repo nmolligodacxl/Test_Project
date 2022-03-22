@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li[data-cy=roundTrip]\"}\n  (Session info: chrome=99.0.4844.51)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00809943+2595139]\n\tOrdinal0 [0x0079C9F1+2148849]\n\tOrdinal0 [0x00694528+1066280]\n\tOrdinal0 [0x006C0FD4+1249236]\n\tOrdinal0 [0x006C11CB+1249739]\n\tOrdinal0 [0x006ED812+1431570]\n\tOrdinal0 [0x006DBA34+1358388]\n\tOrdinal0 [0x006EBAF2+1424114]\n\tOrdinal0 [0x006DB806+1357830]\n\tOrdinal0 [0x006B6086+1204358]\n\tOrdinal0 [0x006B6F96+1208214]\n\tGetHandleVerifier [0x009AB232+1658114]\n\tGetHandleVerifier [0x00A6312C+2411516]\n\tGetHandleVerifier [0x0089F261+560433]\n\tGetHandleVerifier [0x0089E366+556598]\n\tOrdinal0 [0x007A286B+2173035]\n\tOrdinal0 [0x007A75F8+2192888]\n\tOrdinal0 [0x007A76E5+2193125]\n\tOrdinal0 [0x007B11FC+2232828]\n\tBaseThreadInitThunk [0x75616359+25]\n\tRtlGetAppContainerNamedObjectPath [0x777D87D4+228]\n\tRtlGetAppContainerNamedObjectPath [0x777D87A4+180]\n"
-}
